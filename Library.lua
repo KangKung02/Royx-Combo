@@ -31,6 +31,9 @@ Frame.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 Frame.BorderSizePixel = 3
 Frame.Position = UDim2.new(0.315217376, 0, 0.281287253, 0)
 Frame.Size = UDim2.new(0, 510, 0, 298)
+Frame.Draggable = true
+Frame.Active = true
+Frame.Selectable = true
 
 Title.Name = "Title"
 Title.Parent = Frame
@@ -167,6 +170,11 @@ Function1.TextWrapped = true
 
 UICorner_6.CornerRadius = UDim.new(0, 30)
 UICorner_6.Parent = Function1
+
+Exit.MouseButton1Down:Connect(function()
+    UWU:Destroy();
+end);
+
 local Library = { Button = {
     F1 = Function1,
     F2 = Function2,
