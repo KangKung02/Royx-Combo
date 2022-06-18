@@ -54,7 +54,7 @@ Version.BorderSizePixel = 0
 Version.Position = UDim2.new(0.627450943, 0, 0.912751675, 0)
 Version.Size = UDim2.new(0, 181, 0, 26)
 Version.Font = Enum.Font.Highway
-Version.Text = "Version : 1.0.0"
+Version.Text = "Version : N/A"
 Version.TextColor3 = Color3.fromRGB(0, 0, 0)
 Version.TextSize = 18.000
 Version.TextWrapped = true
@@ -176,7 +176,8 @@ local Library = { Button = {
     F6 = Function6
 }, Version = Version };
 
-function Library:AddCombo(Button, Callback)
+function Library:AddCombo(Button, Text, Callback)
+    Button.Text = Text;
     Button.MouseButton1Down:Connect(Callback);
 end
 
