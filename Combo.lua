@@ -12,5 +12,6 @@ Library:AddCombo(Library.Button.F1, "Kai 100", function()
     Options["New Profile Name"]:SetValue("Kai 100 UWU " .. math.random(000000, 999999));
     Buttons["Profile:Create New Profile"]:VirtualClick();
     Buttons["Profile:Hook My UserName With Profile"]:VirtualClick();
+    Buttons["FileManager:Save"]:VirtualClick();
     Toggles["AutoLoad"]:SetValue(true);
 end);
