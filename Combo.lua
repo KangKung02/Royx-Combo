@@ -2,7 +2,7 @@ local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/KangK
 local Version = "1.0.0";
 Library.Version = "Version : " .. Version;
 
-Library:AddCombo("F1", "Kai 100", function()
+Library:AddCombo(Library.Button.F1, "Kai 100", function()
     Options["Settings-Credits:Right:Downloader:Profile Url"]:SetValue("https://cdn.discordapp.com/attachments/961663721975976078/982257803282509894/Story_Farm.json");
     Buttons["Profile:Download Profile"]:VirtualClick();
     -- Options["Settings-Credits:Right:Downloader:Macro Pack Url"]:SetValue("https://github.com/RoyxHub/MacroPack.git");
