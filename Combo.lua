@@ -7,7 +7,7 @@ Library:AddCombo(Library.Button.F1, "Kai 100 + Macro Pack", function()
     Buttons["Profile:Download Profile"]:VirtualClick();
     Options["Settings-Credits:Right:Downloader:Macro Pack Url"]:SetValue("https://github.com/RoyxHub/MacroPack.git");
     Buttons["Profile:Download Macro Pack"]:VirtualClick();
-    Options["Select Profile"]:SetValue("Story_Farm");
+    Options["Select Profile"]:SetValue("FarmLv100");
     Buttons["FileManager:Load"]:VirtualClick();
     Options["New Profile Name"]:SetValue("Kai 100 UWU " .. math.random(000000, 999999));
     Buttons["Profile:Create New Profile"]:VirtualClick();
@@ -21,7 +21,7 @@ Library:AddCombo(Library.Button.F2, "Kai 100", function()
     Buttons["Profile:Download Profile"]:VirtualClick();
     -- Options["Settings-Credits:Right:Downloader:Macro Pack Url"]:SetValue("https://github.com/RoyxHub/MacroPack.git");
     -- Buttons["Profile:Download Macro Pack"]:VirtualClick();
-    Options["Select Profile"]:SetValue("Story_Farm");
+    Options["Select Profile"]:SetValue("FarmLv100");
     Buttons["FileManager:Load"]:VirtualClick();
     Options["New Profile Name"]:SetValue("Kai 100 UWU " .. math.random(000000, 999999));
     Buttons["Profile:Create New Profile"]:VirtualClick();
