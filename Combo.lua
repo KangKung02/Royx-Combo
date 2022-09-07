@@ -3,7 +3,7 @@ local Version = "1.0.0";
 Library.Version.Text = "Version : " .. Version;
 
 Library:AddCombo(Library.Button.F1, "Kai 100 + Macro Pack", function()
-    Options["Settings-Credits:Right:Downloader:Profile Url"]:SetValue("https://cdn.discordapp.com/attachments/961663721975976078/982257803282509894/Story_Farm.json");
+    Options["Settings-Credits:Right:Downloader:Profile Url"]:SetValue("https://cdn.discordapp.com/attachments/870201487458979910/1017068895590436904/FarmLv100.json");
     Buttons["Profile:Download Profile"]:VirtualClick();
     Options["Settings-Credits:Right:Downloader:Macro Pack Url"]:SetValue("https://github.com/RoyxHub/MacroPack.git");
     Buttons["Profile:Download Macro Pack"]:VirtualClick();
@@ -17,7 +17,7 @@ Library:AddCombo(Library.Button.F1, "Kai 100 + Macro Pack", function()
 end);
 
 Library:AddCombo(Library.Button.F2, "Kai 100", function()
-    Options["Settings-Credits:Right:Downloader:Profile Url"]:SetValue("https://cdn.discordapp.com/attachments/961663721975976078/982257803282509894/Story_Farm.json");
+    Options["Settings-Credits:Right:Downloader:Profile Url"]:SetValue("https://cdn.discordapp.com/attachments/870201487458979910/1017068895590436904/FarmLv100.json");
     Buttons["Profile:Download Profile"]:VirtualClick();
     -- Options["Settings-Credits:Right:Downloader:Macro Pack Url"]:SetValue("https://github.com/RoyxHub/MacroPack.git");
     -- Buttons["Profile:Download Macro Pack"]:VirtualClick();
